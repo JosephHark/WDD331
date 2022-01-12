@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+//variable
+$h1-C-main-BC:#FAEBD7;
+$header-background-color:#6495ED;
+$li-color: #FAEBD7;
+$liActive-color:#DEB887;
+$a: #6495ED;
+@mixin center {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 16px;
+   }
+   
+
+h1 a {
+    font-family: 'Lora';
+    color: $h1-C-main-BC;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+header {
+    background-color: $header-background-color;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: $h1-C-main-BC;
+}
+
+li,
+h1 {
+    list-style: none;
+    text-align: right;
+    line-height: 200%;
+    margin-right: 15px;
+}
+
+li a {
+    color: $li-color;
+    text-decoration: none;
+
+    :visited {
+        color: $li-color;
+        text-decoration: none;
+    }
+
+    :active {
+        color: $liActive-color;
+    }
+
+    :hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+
+    :visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    :active {
+        color: $liActive-color;
+    }
+
+    :hover {
+        color: $a;
+        text-decoration: underline;
+    }
+}
+
+p a {
+    color: $a;
+    text-decoration: none;
+
+    :visited {
+        color: $a;
+        text-decoration: none;
+    }
+
+    :active {
+        color: $liActive-color;
+    }
+
+    :hover {
+        text-decoration: underline;
+    }
+}
+
+h2 {
+    font-family: 'Lora';
+    text-align: center;
+
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+p {
+    text-align: center;
+}
+
+.post-date {
+    color: grey;
+    margin-left: 25px;
+    margin-bottom: -10px;
+}
+
+article {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        @include center;
+    }
+}
