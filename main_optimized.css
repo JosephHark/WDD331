@@ -1,0 +1,132 @@
+/*** uncss> filename: main.css ***/
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+h1 a {
+  font-family: 'Lora';
+  color: #FAEBD7;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+header {
+  background-color: #6495ED;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: #FAEBD7;
+}
+
+li,
+h1 {
+  list-style: none;
+  text-align: right;
+  line-height: 200%;
+  margin-right: 15px;
+}
+
+li a {
+  color: #FAEBD7;
+  text-decoration: none;
+}
+
+li a :visited {
+  color: #FAEBD7;
+  text-decoration: none;
+}
+
+li a :active {
+  color: #DEB887;
+}
+
+li a :hover {
+  color: white;
+  text-decoration: underline;
+}
+
+article a {
+  color: black;
+  text-decoration: none;
+}
+
+article a :visited {
+  color: black;
+  text-decoration: none;
+}
+
+article a :active {
+  color: #DEB887;
+}
+
+article a :hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+
+p a {
+  color: #6495ED;
+  text-decoration: none;
+}
+
+p a :visited {
+  color: #6495ED;
+  text-decoration: none;
+}
+
+p a :active {
+  color: #DEB887;
+}
+
+p a :hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Lora';
+  text-align: center;
+}
+
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+p {
+  text-align: center;
+}
+
+.post-date {
+  color: grey;
+  margin-left: 25px;
+  margin-bottom: -10px;
+}
+
+article {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

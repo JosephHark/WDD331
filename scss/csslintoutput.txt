@@ -1,0 +1,4 @@
+
+[4mcustom.scss[24m
+ [2m1:51[22m  [31m[31m✖[39m  Unexpected missing end-of-source newline  [2mno-missing-end-of-source-newline[22m
+
