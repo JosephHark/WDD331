@@ -2,22 +2,21 @@
 <html lang="en" class="no-js">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather" rel="stylesheet"
-    type="text/css" />
+  <link href="9797db890ab115df64f322f6ec8c2cdc" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="scss/style-guide.scss" />
+  <link rel="stylesheet" href="11a54e647e37814b135a6f0ff22b5f24">
   <!-- Resource style -->
-  <script src="js/modernizr.js"></script>
+  <script src="932d90d3eeeec95f906d78b52546ca5e"></script>
   <!-- Modernizr -->
   <title>Style Guide | CodyHouse</title>
 </head>
 
 <body>
   <header>
-    <div class="cd-logo"><img src="assets/logo.svg" alt="Logo" /></div>
+    <div class="cd-logo"><img src="183d5a41924f9591938233cbc386b96d" alt="Logo"></div>
 
     <nav>
       <ul class="cd-main-nav">
@@ -32,7 +31,7 @@
       <!-- cd-main-nav -->
     </nav>
 
-    <a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
+    <a href="0c1ad1e7b10aa4131796b0da0453a5c6" class="cd-download"><span>Download assets</span></a>
     <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
   </header>
 
@@ -90,12 +89,8 @@
 
       <div class="cd-box">
         <h1>Heading, <span>Awakening</span></h1>
-        <a href="https://www.fontspace.com/category/space"><img
-            src="https://see.fontimg.com/api/renderfont4/DOLPD/eyJyIjoiZnMiLCJoIjo1MCwidyI6MTAwMCwiZnMiOjUwLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/QVdBS0VOTklORw/awakenning-personal-use.png"
-            alt="Space fonts"></a>
-        <a href="https://www.fontspace.com/category/space"><img
-            src="https://see.fontimg.com/api/renderfont4/DOLPD/eyJyIjoiZnMiLCJoIjo1MCwidyI6MTAwMCwiZnMiOjUwLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/QVdBS0VOTklORw/awakenning-personal-use.png"
-            alt="Space fonts"></a>
+        <a href="b04394e149f1f7b3ff9db279b65a029c"><img src="61fecb272fa543bd1b1f581dc9aa1d11" alt="Space fonts"></a>
+        <a href="b04394e149f1f7b3ff9db279b65a029c"><img src="61fecb272fa543bd1b1f581dc9aa1d11" alt="Space fonts"></a>
         <p>
           Aa - <span>Space Mono</span>. Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Omnis voluptate distinctio reprehenderit, autem
@@ -150,18 +145,18 @@
       <h2>Wireframes</h2>
       <div class="cd-box">
         <figure>
-          <img src="assets/wireframe-sm.jpg" alt="Small screen wireframe" />
+          <img src="cfc7bb3948758862d030abed6504af2d" alt="Small screen wireframe">
           <figcaption>Small screen</figcaption>
         </figure>
         <figure>
-          <img src="assets/wireframe-lg.jpg" alt="Large screen wireframe" />
+          <img src="15ed40e8cde6890fdfa13de2b9ba6bb8" alt="Large screen wireframe">
           <figcaption>Large screen</figcaption>
         </figure>
       </div>
     </section>
   </main>
 
-  <script src="js/main.js"></script>
+  <script src="109840a1dc8a9cfb9428801d6c53805a"></script>
 </body>
 
 </html>
