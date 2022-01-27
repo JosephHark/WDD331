@@ -1,7 +1,7 @@
 @import 'partials/colors';
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-$header-font: ;
-$body-font:font-family: 'Space Mono', monospace; ;
+$header-font: 'Space Mono', 'monospace';
+$body-font: 'Space Mono', 'monospace';
 
 h1,
 h2 {
@@ -35,17 +35,17 @@ h2 {
   }
 }
 
-section > h2::before {
+//section > h2::before {
   /* number before each section title */
-  color: darken($color-4, 15%);
-}
+ // color: darken($color-4, 15%);
+//}
 
 p {
     font-family:$body-font;
-    font-color:$color-5;
+    color:$color-5;
   font-size: 1.4rem;
   line-height: 1.4;
-  color: lighten($color-2, 25%);
+  //color: lighten($color-2, 25%);
 
   a {
     color: $color-1;

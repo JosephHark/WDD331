@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="9797db890ab115df64f322f6ec8c2cdc" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="11a54e647e37814b135a6f0ff22b5f24">
+  <!-- Resource style -->
+  <script src="932d90d3eeeec95f906d78b52546ca5e"></script>
+  <!-- Modernizr -->
+  <title>Style Guide | CodyHouse</title>
+</head>
+
+<body>
+  <header>
+    <div class="cd-logo"><img src="183d5a41924f9591938233cbc386b96d" alt="Logo"></div>
+
+    <nav>
+      <ul class="cd-main-nav">
+        <li><a href="#branding">Branding</a></li>
+        <li><a href="#colors">Colors</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#icons">icons</a></li>
+        <li><a href="#form">Form</a></li>
+        <li><a href="#navigation">Navigation</a></li>
+      </ul>
+      <!-- cd-main-nav -->
+    </nav>
+
+    <a href="0c1ad1e7b10aa4131796b0da0453a5c6" class="cd-download"><span>Download assets</span></a>
+    <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+  </header>
+
+  <main>
+    <h1>Style Guide 1.0</h1>
+
+    <section id="purpose" class="cd-purpose">
+      <h2>Purpose/Theme</h2>
+
+      <div class="cd-box">
+        <p>Offer developing software programers an opportunity to see a polished website with various Css themes. It
+          shows demonstrations of what can be accomplished through CSS-based design.The Zen Garden aims to excite,
+          inspire, and encourage participation.
+          The theme that we chose to do for our CSS Zen Garden project is Space. We plan on implementing this theme in a
+          few different ways. We will use a background that looks like stars out in space, most likely created by svg.
+          We will be using colors that look like a purple haze, with colors like purple, magenta, and pinks to help it
+          look like deep space. The majority of the body of the text will be in one larger section, that as the user
+          scrolls through, it will disappear at the top and get smaller as if it is going into space (similar
+          introduction to the star wars movies). We would also lock the navigation links and other such content in place
+          so that it gives more of the feel that the main body text is disappearing off the screen. We plan to implement
+          more space ideas through the use of svg planets or other simple designs to add some other graphics. The
+          navigation menus with the different links will be animated to appear as if they are floating by rotating
+          slowly up and down in different directions. We will use a grid system approach to help with the layout of our
+          page. Our wireframes have been included as requested, we will have the header section at the top, and then the
+          entire background image of the stars or galaxy. The navigation boxes have been rotated to show what they might
+          look like when they are animated. The main text section runs off the bottom of the page as we wanted to
+          include it all in the wireframe, but that box will scroll with the older text going away at the top of the
+          text box as explained before. These are our main ideas and we are going to be searching for more ways to
+          implement our space theme as we go! </p>
+      </div>
+    </section>
+
+    <section id="colors" class="cd-colors">
+      <h2>Colors</h2>
+      <img src="0e1bd3b967b040e7d051a9163fb471b2" alt="Small screen wireframe">
+
+      <ul class="c-one">
+        <li class="cd-box">
+
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+      </ul>
+
+      
+    </section>
+
+    <section id="typography" class="cd-typography">
+      <h2>Typography</h2>
+
+      <div class="cd-box">
+        <h1>Heading, <span>Awakening</span></h1>
+        <a href="b04394e149f1f7b3ff9db279b65a029c"><img src="61fecb272fa543bd1b1f581dc9aa1d11" alt="Space fonts"></a>
+        <a href="b04394e149f1f7b3ff9db279b65a029c"><img src="61fecb272fa543bd1b1f581dc9aa1d11" alt="Space fonts"></a>
+        <p>
+          Aa - <span>Space Mono</span>. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Omnis voluptate distinctio reprehenderit, autem
+          deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi
+          distinctio nemo repellat, voluptate fugiat. Quidem neque illum,
+          blanditiis!
+        </p>
+      </div>
+    </section>
+
+    <section id="navigation" class="cd-navigation">
+      <h2>Navigation</h2>
+      <div class="cd-box">
+        <div>
+          <h3>Primary</h3>
+          <nav class="cd-primary-nav">
+            <ul>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <h3>Secondary</h3>
+          <nav class="cd-secondary-nav">
+            <ul>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+              <li><a href="#">Space Mono</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <h3>Other Links</h3>
+          <ul>
+            <li><a href="#">Space Mono</a></li>
+            <li><a href="#">Space Mono</a></li>
+            <li><a href="#">Space Mono</a></li>
+            <li><a href="#">Space Mono</a></li>
+            <li><a href="#">Space Mono</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="wireframes" class="cd-wireframes">
+      <h2>Wireframes</h2>
+      <div class="cd-box">
+        <figure>
+          <img src="1441de7d6a6c1cc18a27134d98d22fbb" alt="Small screen wireframe">
+          <figcaption>Small screen</figcaption>
+        </figure>
+        <figure>
+          <img src="07be0d8b9826d0d257a03d98556a92ae" alt="Large screen wireframe">
+          <figcaption>Large screen</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <script src="109840a1dc8a9cfb9428801d6c53805a"></script>
+</body>
+
+</html>
