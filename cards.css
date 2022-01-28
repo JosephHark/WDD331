@@ -1,0 +1,11 @@
+.card1,
+.card2 {
+    width: 400px;
+    height: 650px;
+    border: 1px solid grey;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px grey;
+}
