@@ -1,11 +1,14 @@
-.card1,
-.card2 {
-    width: 400px;
-    height: 650px;
-    border: 1px solid grey;
-    position: relative;
-    top: 50px;
-    left: 50px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px grey;
+.cards {
+  border-color: black;
+}
+
+#icon-plane:nth-child(1) {
+  fill: red;
+}
+
+div {
+  border: 5px solid red;
+  width: 100px;
+  height: 100px;
+  background: url("svg-assets/Picture1.png");
 }
