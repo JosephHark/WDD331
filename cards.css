@@ -1,14 +1,11 @@
-.cards {
-  border-color: black;
-}
 
-#icon-plane:nth-child(1) {
-  fill: red;
-}
 
-div {
+one {
   border: 5px solid red;
   width: 100px;
   height: 100px;
   background: url("svg-assets/Picture1.png");
+}
+p{
+  font-family: 'bigmacca';
 }
