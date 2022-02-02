@@ -1,32 +1,22 @@
 //make column classes 
-$num-columns : 8;
+$num-columns : 1;
 $one-column : 100% / $num_columns;
 $loop-start: 1;
 $loop-end: $num-columns+1;
-$one-column: 12.5%;
+$one-column: 100%;
 
 @mixin col($span-num) {
-    flex: 0 0 12.5% * $span-num;
+    flex: 0 0 100% * $span-num;
 }
 
 @mixin col($span-num) {
     flex: 0 0 $one-column * $span-num;
 }
 
-@mixin offset($offset-num) {
-    margin-left: $one-column * $offset-num;
-}
 
 //make column classes 
 @for $index from $loop-start to $loop-end {
     .col-#{$index} {
         @include col($index);
-    }
-}
-
-//make offset classes
-@for $index from $loop-start to $loop-end {
-    .offset-#{$index} {
-        @include offset($index);
     }
 }

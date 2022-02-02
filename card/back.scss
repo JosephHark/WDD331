@@ -1,10 +1,8 @@
-@import 'partials/loops';
-
 //variables to setup basic size and shape of the card and pips
+@import 'partials/loops';
 $card-width: 300px;
 $card-height: $card-width*1.4;
-$font-size-number: $card-width * 0.1;
-$icon-size: $card-width / 5;
+$icon-size: $card-width / 4;
 
 *,
 *:before,
@@ -13,57 +11,10 @@ $icon-size: $card-width / 5;
     margin: 0;
     padding: 0;
 }
-
-//styles to draw a basic outline of a card
-.card {
-    border: 1px solid grey;
-    height: $card-height;
-    width: $card-width;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 2px 2px 4px grey;
-}
-
-//because it is a card front we want a bit of extra padding
-.card-front {
-    padding: .5em;
-}
-
-//set icon size
 .icon {
     width: $icon-size;
     height: $icon-size;
 }
-
-.number {
-    text-align: center;
-    font-size: $font-size-number;
-
-    //an icon that is part of a number should be half the normal size
-    &>.icon {
-        width: $icon-size * .5;
-        height: $icon-size *.5;
-    }
-}
-
-//rotate bottom pips 180deg
-.rotate {
-    transform: rotate(180deg);
-}
-
-.row {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    align-content: space-between;
-    height: 100%;
-}
-
-.cell {
-    flex: 1;
-    text-align: center;
-}
-
 //styles to draw a basic outline of a card
 .card {
     border: 1px solid grey;
@@ -83,22 +34,15 @@ $icon-size: $card-width / 5;
     box-shadow: 2px 2px 4px grey;
     background-color: #010101;
 }
-.cell{
-    width: 200px;
-    height:auto;
-}
 .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: justify;
-        align-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-between;
     height: 100%;
-  }
+}
+
+.cell {
+    flex: 1;
+    text-align: center;
+}
