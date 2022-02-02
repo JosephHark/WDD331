@@ -9,13 +9,24 @@
 
 .card {
   border: 1px solid grey;
-  height: 56vw;
-  width: 40vw;
+  height: 420px;
+  width: 300px;
   border-radius: 10px;
   margin: 20px;
   -webkit-box-shadow: 2px 2px 4px grey;
           box-shadow: 2px 2px 4px grey;
   background-color: #050A30;
+}
+
+.card-2 {
+  border: 1px solid grey;
+  height: 420px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  -webkit-box-shadow: 2px 2px 4px grey;
+          box-shadow: 2px 2px 4px grey;
+  background-color: #010101;
 }
 
 .cell {
