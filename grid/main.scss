@@ -1,3 +1,5 @@
+@import 'partials/loops';
+
 //variables to setup basic size and shape of the card and pips
 $card-width: 40vw;
 $card-height: $card-width*1.4;
@@ -60,24 +62,4 @@ $icon-size: $card-width / 5;
 .cell {
     flex: 1;
     text-align: center;
-}
-
-.col-1 {
-    flex: 0 0 12.5%;
-}
-
-.col-2 {
-    flex: 0 0 25%;
-}
-
-.col-3 {
-    flex: 0 0 100%;
-}
-
-.offset-2 {
-    margin-left: 25%;
-}
-
-.offset-3 {
-    margin-left: 12.5%;
 }
