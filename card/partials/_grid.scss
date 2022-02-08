@@ -1,0 +1,42 @@
+//make column classes 
+$num-columns : 8;
+$one-column : 100% / $num_columns;
+$cloop-start: 1;
+$cloop-end: $num-columns+1;
+$one-column: 1;
+
+$num-rows : 4;
+$one-row : 100% / $num_rows;
+$rloop-start: 1;
+$rloop-end: $num-rows+1;
+$one-row: 1;
+
+@mixin col($span-num) {
+    grid-column: 1 * $span-num;
+}
+
+@mixin col($span-num) {
+    grid-column: $one-column * $span-num;
+}
+
+@mixin row($span-num) {
+    grid-row: 1 * $span-num;
+}
+
+@mixin row($span-num) {
+    grid-row: $one-row * $span-num;
+}
+
+//make column classes 
+@for $index from $cloop-start to $cloop-end {
+    .col-#{$index} {
+        @include col($index);
+    }
+}
+
+//make row classes 
+@for $index from $rloop-start to $rloop-end {
+    .row-#{$index} {
+        @include row($index);
+    }
+}

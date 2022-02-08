@@ -1,3 +1,5 @@
+@import 'partials/grid';
+
 //variables to setup basic size and shape of the card and pips
 $card-width: 40vw;
 $card-height: $card-width*1.4;
@@ -20,4 +22,45 @@ $icon-size: $card-width / 5;
     border-radius: 10px;
     margin: 20px;
     box-shadow: 2px 2px 4px grey;
+}
+
+//because it is a card front we want a bit of extra padding
+.card-front {
+    padding: .5em;
+}
+
+//set icon size
+.icon {
+    width: $icon-size;
+    height: $icon-size;
+}
+
+.number {
+    text-align: center;
+    font-size: $font-size-number;
+
+    //an icon that is part of a number should be half the normal size
+    &>.icon {
+        width: $icon-size * .5;
+        height: $icon-size *.5;
+    }
+}
+
+//rotate bottom pips 180deg
+.rotate {
+    transform: rotate(180deg);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    align-items: center;
+    align-content: space-between;
+    height: 100%;
+}
+
+.cell {
+    flex: 1;
+    text-align: center;
 }
