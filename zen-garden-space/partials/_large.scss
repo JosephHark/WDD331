@@ -4,18 +4,17 @@
         display: grid;
         grid-template-columns: 3fr 7fr;
     }
-    .sidebar{
-        grid-column: 1/2;
+    .intro{
+        grid-column: 1/ span 2;  
+    }
+    .main{
+        grid-column: 2/3;
         grid-row: 2;
     }
-    .intro{
-        grid-column: span 2;
- 
+    .sidebar{
+        grid-column: 1/2; 
+        grid-row: 2;
+
     }
-    .b{
-        grid-column: 2/3;
-    }
-    .preamble{
-        grid-column: 2/3;
-    }
+
 }
