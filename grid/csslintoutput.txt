@@ -1,0 +1,49 @@
+
+[4mmain.css[24m
+   [2m1:1[22m   [31m[31m✖[39m  Unknown rule function-no-unknown. Did you mean unit-no-unknown?  [2mfunction-no-unknown[22m                   
+   [2m3:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+   [2m3:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+   [2m4:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+   [2m9:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+   [2m9:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m10:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m15:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+  [2m15:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m16:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m21:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+  [2m21:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m22:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m27:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+  [2m27:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m28:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m33:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+  [2m33:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m34:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m39:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+  [2m39:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m40:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m45:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+  [2m45:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m46:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m82:2[22m   [31m[31m✖[39m  Expected double colon pseudo-element notation                    [2mselector-pseudo-element-colon-notation[22m
+  [2m83:2[22m   [31m[31m✖[39m  Expected double colon pseudo-element notation                    [2mselector-pseudo-element-colon-notation[22m
+  [2m84:3[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-webkit-box-sizing"                    [2mproperty-no-vendor-prefix[22m             
+  [2m85:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+  [2m96:3[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-webkit-box-shadow"                    [2mproperty-no-vendor-prefix[22m             
+  [2m97:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m101:12[22m  [31m[31m✖[39m  Expected a leading zero                                          [2mnumber-leading-zero[22m                   
+ [2m120:3[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-webkit-transform"                     [2mproperty-no-vendor-prefix[22m             
+ [2m121:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m125:12[22m  [31m[31m✖[39m  Unexpected vendor-prefix "-webkit-box"                           [2mvalue-no-vendor-prefix[22m                
+ [2m126:12[22m  [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flexbox"                           [2mvalue-no-vendor-prefix[22m                
+ [2m130:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex-flow"                         [2mproperty-no-vendor-prefix[22m             
+ [2m130:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m131:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m133:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m134:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m136:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m142:7[22m   [31m[31m✖[39m  Unexpected vendor-prefix "-ms-flex"                              [2mproperty-no-vendor-prefix[22m             
+ [2m142:7[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m143:11[22m  [31m[31m✖[39m  Expected indentation of 2 spaces                                 [2mindentation[22m                           
+ [2m145:38[22m  [31m[31m✖[39m  Unexpected missing end-of-source newline                         [2mno-missing-end-of-source-newline[22m
+
