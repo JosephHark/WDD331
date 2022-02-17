@@ -1,0 +1,33 @@
+@media screen and (min-width: 600px) {
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  .intersetbox {
+    width: 25%;
+    height: auto;
+  }
+  .img-responsive {
+    width: 25%;
+    height: auto;
+  }
+}
+
+body {
+  background-color: blue;
+}
+/*# sourceMappingURL=test.css.map */
