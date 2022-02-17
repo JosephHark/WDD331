@@ -4,12 +4,16 @@
         display: grid;
         grid-template-columns: 3fr 7fr;
     }
-    .intro{
+    .banner, .summary{
         grid-column: 1/ span 2;  
+    }
+    .preamble{
+        grid-column: 2/3;
+        grid-row: 2;
     }
     .main{
         grid-column: 2/3;
-        grid-row: 2;
+        grid-row: 3;
     }
     .sidebar{
         grid-column: 1/2; 
