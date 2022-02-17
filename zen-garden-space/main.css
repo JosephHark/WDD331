@@ -40,21 +40,49 @@
 
 @media screen and (min-width: 600px) {
   .page-wrapper {
-    background-color: red;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 3fr 7fr;
         grid-template-columns: 3fr 7fr;
+    grid-column-gap: 2em;
   }
-  .banner, .summary {
+  .intro {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1/ span 2;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr 7fr;
+        grid-template-columns: 3fr 7fr;
+    grid-column-gap: 2em;
   }
-  #zen-preamble {
+  .summary {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+  }
+  .preamble {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
+  }
+  .main {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .sidebar {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
     -ms-grid-row: 2;
     grid-row: 2;
   }
