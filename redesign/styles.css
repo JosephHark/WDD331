@@ -290,5 +290,8 @@ a, a:hover {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
+  .audience-dropdown-item {
+    width: 25%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
