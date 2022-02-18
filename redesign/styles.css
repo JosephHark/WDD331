@@ -277,12 +277,13 @@ a:hover {
   .opening {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 6fr 4fr;
+        grid-template-columns: 6fr 4fr;
   }
-  header {
-    background-color: #0076B6;
-    height: 60px;
+  .links {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
   }
 }
 /*# sourceMappingURL=styles.css.map */

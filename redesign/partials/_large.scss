@@ -24,11 +24,9 @@
 
     .opening {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 6fr 4fr;
     }
-
-    header {
-        background-color: #0076B6;
-        height: 60px;
-    }
+.links{
+    grid-column: 2/3;
+}
 }
