@@ -253,23 +253,12 @@ a:hover {
 }
 
 @media screen and (min-width: 600px) {
-  *:before,
-  *:after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  img {
-    max-width: 100%;
-  }
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .intersetbox {
     width: 75%;
@@ -291,8 +280,9 @@ a:hover {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
-  .audience-dropdown-item {
-    width: 25%;
+  header {
+    background-color: #0076B6;
+    height: 60px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

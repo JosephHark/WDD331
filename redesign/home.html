@@ -10,46 +10,189 @@
 
 <body>
   <header>
-    <div class="site-banner white-text">
-      <div class="site-banner__left">
-        <a href="#"><span aria-hidden="true" class="icon-byui-logo">
-            <span class="sr-only">Link to BYU-Idaho home page</span>
-          </span></a>
-        <h1>Home</h1>
+    <!-- COMMON HEADER: SAME ON ALL PAGES -->
+    <!-- SKIP TO CONTENT -->
+    <a class="common-skip-nav" href="https://www.byui.edu/#siteTitle">
+      Skip to site content.
+    </a>
+    <div class="container">
+      <!-- TOGGLE NAVIGATION -->
+      <button class="common-abs common-button common-abs-nav" id="common-button-nav" aria-haspopup="true" aria-expanded="false">
+        <span class="common-button-icon icon-menu">
+          <span class="sr-only">expand BYUI General Menu</span>
+        </span>
+      </button>
+      <!-- LOGO -->
+      <div class="common-abs">
+        <div class="common-abs-logo">
+          <a class="common-button" href="x77.xml" aria-label="BYU-Idaho Home">
+            <span class="common-button-icon common-abs-logo-icon icon-byui-logo" aria-hidden="true">
+              <span class="sr-only">BYU-Idaho</span>
+            </span>
+          </a>
+        </div>
       </div>
-      <div class="site-banner__right">
-        <a href="http://www.byui.edu/#">
-          <span class="icon-search text-white mobile-header-icon">
-            <span class="sr-only">Search BYU-I</span>
-          </span>
-        </a>
-        <a
-          href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=https%3a%2f%2fmy.byui.edu%2f">
-          <span class="icon-audience text-white mobile-header-icon">
-            <span class="sr-only">Login</span>
-          </span>
-        </a>
-        <a href="http://www.byui.edu/#">
-          <span class="icon-menu text-white mobile-header-icon">
-            <span class="sr-only">Expand Menu</span>
-          </span>
-        </a>
-      </div>
-      <form aria-label="Search byui.edu" method="get" action="https://www.byui.edu/search/result?" role="search">
-        <div>
-          <label for="searchDesktop" class="sr-only">Search BYU-I websites:
-          </label>
-          <input id="searchDesktop" name="q" placeholder="Powered by Google"
-            alt="Search BYU-I websites (powered by Google.com)." type="text" />
-
-          <button type="submit">
-            <span aria-hidden="true" class="icon icon-magnifying-glass ">
-              <span class="sr-only">Submit</span>
+    </div>
+    <div class="common-header">
+      <div class="container h-100 d-flex">
+        <!-- MAIN NAVIGATION -->
+        <nav class="common-nav" aria-label="site-wide navigation of BYU-Idaho web sites">
+          <div class="menu-button">
+            <button class="common-nav-button close-nav" data-role="close-nav">
+              <span class="icon-expand-left" aria-hidden="true"></span>
+              Close Menu
+            </button>
+          </div>
+            <div class="menu-button">
+              <button class="common-nav-button" aria-haspopup="true" aria-expanded="false">
+                <span class="icon-triangle-right">
+                  <span class="sr-only">
+                    expand menu
+                  </span>
+                </span>
+                University
+                 
+              </button>
+              <div class="hidden" role="menu">
+          <a href="admissions" class="common-nav-item" target="" role="menuitem">Admissions</a>
+          <a href="about" class="common-nav-item" target="" role="menuitem">About BYUI</a>
+          <a href="contact-us" class="common-nav-item" target="" role="menuitem">Contact</a>
+          <a href="financial-aid" class="common-nav-item" target="" role="menuitem">Financial Aid</a>
+          <a href="president" class="common-nav-item" target="" role="menuitem">President's Office</a>
+          <a href="student-records" class="common-nav-item" target="" role="menuitem">Registration</a>
+          <a href="university-relations" class="common-nav-item" target="" role="menuitem">University Relations</a>
+              </div>
+            </div>
+            <div class="menu-button">
+              <button class="common-nav-button" aria-haspopup="true" aria-expanded="false">
+                <span class="icon-triangle-right">
+                  <span class="sr-only">
+                    expand menu
+                  </span>
+                </span>
+                Academics
+                 
+              </button>
+              <div class="hidden" role="menu">
+          <a href="student-records/academic-deadlines" class="common-nav-item" target="" role="menuitem">Academic Schedule</a>
+          <a href="campus-career-and-academic-advising" class="common-nav-item" target="" role="menuitem">Advising</a>
+          <a href="directories/colleges-and-departments" class="common-nav-item" target="" role="menuitem">Colleges and Departments</a>
+          <a href="catalog" class="common-nav-item" target="" role="menuitem">Catalog</a>
+          <a href="learning-model" class="common-nav-item" target="" role="menuitem">Learning Model</a>
+          <a href="online" class="common-nav-item" target="" role="menuitem">Online Courses and Programs</a>
+          <a href="testing-center" class="common-nav-item" target="" role="menuitem">Testing Center</a>
+          <a href="academic-success-and-tutoring/tutoring-center" class="common-nav-item" target="" role="menuitem">Tutoring</a>
+              </div>
+            </div>
+            <div class="menu-button">
+              <button class="common-nav-button" aria-haspopup="true" aria-expanded="false">
+                <span class="icon-triangle-right">
+                  <span class="sr-only">
+                    expand menu
+                  </span>
+                </span>
+                Living
+                 
+              </button>
+              <div class="hidden" role="menu">
+          <a href="activities" class="common-nav-item" target="" role="menuitem">Activities</a>
+          <a href="university-services/food-services" class="common-nav-item" target="" role="menuitem">Food</a>
+          <a href="get-involved" class="common-nav-item" target="" role="menuitem">Get Involved</a>
+          <a href="health-and-wellness-services" class="common-nav-item" target="" role="menuitem">Health and Wellness</a>
+          <a href="student-honor-office" class="common-nav-item" target="" role="menuitem">Honor Code</a>
+          <a href="housing" class="common-nav-item" target="" role="menuitem">Housing</a>
+          <a href="https://web.byui.edu/studentemployment/" class="common-nav-item" target="" role="menuitem">Student Employment</a>
+              </div>
+            </div>
+            <div class="menu-button">
+              <button class="common-nav-button" aria-haspopup="true" aria-expanded="false">
+                <span class="icon-triangle-right">
+                  <span class="sr-only">
+                    expand menu
+                  </span>
+                </span>
+                Services
+                 
+              </button>
+              <div class="hidden" role="menu">
+          <a href="disability-services" class="common-nav-item" target="" role="menuitem">Disability Services</a>
+          <a href="https://td.byui.edu/TDClient/87/Portal/Home/" class="common-nav-item" target="" role="menuitem">FAQ and Help Guides</a>
+          <a href="international-services" class="common-nav-item" target="" role="menuitem">International Services</a>
+          <a href="http://library.byui.edu/" class="common-nav-item" target="" role="menuitem">Library</a>
+          <a href="university-operations/facilities-management/parking-services" class="common-nav-item" target="" role="menuitem">Parking</a>
+          <a href="print" class="common-nav-item" target="" role="menuitem">Print &amp; Copy Services</a>
+          <a href="public-safety" class="common-nav-item" target="" role="menuitem">Public Safety</a>
+          <a href="information-technology" class="common-nav-item" target="" role="menuitem">Technical Help</a>
+          <a href="https://www.byuistore.com/" class="common-nav-item" target="" role="menuitem">University Store</a>
+              </div>
+            </div>
+            <div class="menu-button">
+              <button class="common-nav-button" aria-haspopup="true" aria-expanded="false">
+                <span class="icon-triangle-right">
+                  <span class="sr-only">
+                    expand menu
+                  </span>
+                </span>
+                Find
+                 
+              </button>
+              <div class="hidden" role="menu">
+          <a href="directories" class="common-nav-item" target="" role="menuitem">Directories</a>
+          <a href="http://calendar.byui.edu/MasterCalendar.aspx" class="common-nav-item" target="" role="menuitem">Events</a>
+          <a href="people" class="common-nav-item" target="" role="menuitem">People</a>
+          <a href="https://maps.byui.edu/interactive-map/" class="common-nav-item" target="" role="menuitem">Campus Map</a>
+              </div>
+            </div>
+        </nav>
+        <div class="d-flex align-items-center justify-content-md-end flex-grow-1">
+          <!-- TOGGLE SEARCH -->
+          <button class="common-button common-button-search" id="common-button-search" aria-haspopup="true" aria-expanded="false">
+            <span class="common-button-icon icon-magnifying-glass">
+              <span class="sr-only">Search BYUI</span>
             </span>
           </button>
+          <!-- SEARCH ENGINE -->
+          <div class="common-search-container">
+            <div class="common-search-wrapper">
+              <div class="container common-search hidden-xs hidden-sm hidden-md">
+                <form class="common-search-form" aria-label="Search byui.edu" method="get" action="https://www.byui.edu/search/result?" role="search">
+                  <input class="common-search-input" id="search-byui" name="q" placeholder="Search" type="text">
+                  <label class="common-search-label" for="search-byui">Search BYU-I</label>
+                  
+                  <button class="common-search-submit" type="submit">
+                    <span aria-label="Submit Search" class="icon icon-magnifying-glass">
+                      <span class="sr-only">Search</span>
+                    </span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- APPLY -->
+          <a href="x125434.xml" class="common-button common-button-apply btn">Apply</a>
+          <!-- LOGIN -->
+          <a class="common-button common-button-login btn" href="https://web.byui.edu/portal" role="button">
+            <span class="common-button-icon icon-user"></span>
+            <span class="common-button-login-label">Sign In</span>
+          </a>
         </div>
-      </form>
+      </div>
     </div>
+  
+    <!-- SITE HEADER: SET BY SITE CONTROL -->
+  
+  
+      <div class="site-header">
+        <div class="container d-flex justify-content-between">
+          <a name="siteTitle"></a>
+          <h1 class="site-name">
+            <a href="x77.xml" style="padding-bottom: 15px;">
+              Brigham Young University - Idaho
+            </a>
+          </h1>
+        </div>
+      </div>
+  
   </header>
   <main>
     <div class="university-info-banner">
@@ -59,320 +202,115 @@
       </div>
     </div>
     <div class="opening"> <img src="images/6.jpg" alt="6-high">
-
-      <!--Interset Box-->
       <div class="links">
-        <div class="component-spacing">
-          <button class="audience-button btn" type="button" aria-haspopup="true" aira-expanded="false"
-            aria-controls="audience-dropdown" data-toggle="dropdown" data-target="audience-dropdown">
-            GET INFORMATION FOR:
-          </button>
-
-          <div class="Info">
-            <a href="http://www.besmart.com" class="row-1">Future Students</a>
-            <a href="audience/students" class="row-2">Current Students</a>
-            <a href="audience/employees" class="row-3">Employees</a>
-            <a href="audience/parents" class="row-4">Parents and Family</a>
-            <a href="campus-tours" class="row-5">Visitors</a>
-          </div>
-
-          <div class="Resources">
-            <h3>Resources</h3>
-            <a href="admissions/apply" class="highlights-link d-block" target="">Apply Now</a>
-            <a href="financial-aid" class="highlights-link d-block" target="">Financial Aid</a>
-            <a href="http://www.byui.edu/catalog/#/programs" class="highlights-link d-block" target="">Degrees and Programs </a>
-            <a href="housing" class="highlights-link d-block" target="">Student Housing</a>
-            <a href="financial-aid/cost-of-attendance" class="highlights-link d-block" target="">Tuition and Fees</a>
-            <a href="student-records/academic-deadlines" class="highlights-link d-block" target="">Academic Deadlines</a>
-          </div>
-
-          <aside class="component-spacing">
-            <h3 class="highlights-heading bg-blue">Important Dates</h3>
-            <div class="highlights-link">There is no event to display at the moment.</div>
-          </aside>
-        </div>
-
-        <div id="intersetbox">
+        <aside class="component-spacing">
+          <h3 class="highlights-heading bg-gray">Resources</h3>
           <div>
-            <a href="#"><img class="intersetbox" src="images/videos.jpg" alt="video">
-              <figcaption>Campus Videos</figcaption>
+            <a href="admissions/apply" class="highlights-link d-block" target="">Apply Now <span
+                class="icon-angle-right float-right"></span>
+            </a>
+            <a href="financial-aid" class="highlights-link d-block" target="">Financial Aid <span
+                class="icon-angle-right float-right"></span>
+            </a>
+            <a href="http://www.byui.edu/catalog/#/programs" class="highlights-link d-block" target="">Degrees and
+              Programs <span class="icon-angle-right float-right"></span>
+            </a>
+            <a href="housing" class="highlights-link d-block" target="">Student Housing <span
+                class="icon-angle-right float-right"></span>
+            </a>
+            <a href="financial-aid/cost-of-attendance" class="highlights-link d-block" target="">Tuition and Fees <span
+                class="icon-angle-right float-right"></span>
+            </a>
+            <a href="student-records/academic-deadlines" class="highlights-link d-block" target="">Academic Deadlines
+              <span class="icon-angle-right float-right"></span>
             </a>
           </div>
-          <div>
-            <a href="#"><img class="intersetbox" src="images/gallery.jpg" alt="photo gallery">
-              <figcaption>Photo Gallery</figcaption>
-            </a>
-          </div>
-          <div>
-            <a href="#"><img class="intersetbox" src="images/explore.jpg" alt="explore campus">
-              <figcaption>Explore Campus</figcaption>
-            </a>
-          </div>
-        </div>
+        </aside>
 
-        <!--newsroom-->
-        <div class="news">
-          <div>
-            <article class="article">
-              <div class="row">
-                <div class="hidden-small">
-                  <img src="images/winter2022.PNG" alt="winter" class="img-responsive">
-                </div>
-                <div class="article-date">
-                  February 2,2022
-                </div>
-                <h4><a href="#">BYU-Idaho Winter 2022 Enrollment Figures Released</a></h4>
-                <p class="article-abstract">
-                  Brigham Young University-Idaho has released its official Winter 2022 enrollment numbers for both
-                  campus
-                  and online.
-                </p>
-              </div>
-            </article>
-
-            <article class="article">
-              <div class="row">
-                <div class="hidden-small">
-                  <img src="images/christmas.jpg" alt="christmas concert" class="img-responsive">
-                </div>
-                <div class="article-date">
-                  December 9,2021
-                </div>
-                <h4><a href="#">“Best of” A BYU-Idaho Christmas to air on Idaho Public Television</a></h4>
-                <p class="article-abstract">
-                  BYU-Idaho is pleased to present "Let the Light In," a collection of some of the best performances from
-                  the University's past Christmas concerts.
-                </p>
-              </div>
-            </article>
-
-            <article class="article">
-              <div class="row">
-                <div class="hidden-small">
-                  <img src="images/brent.jpg" alt="brent" class="img-responsive">
-                </div>
-                <div class="article-date">
-                  December 9,2021
-                </div>
-                <h4><a href="#">Elder Brent H. Nielson to speak at fall commencement</a></h4>
-                <p class="article-abstract">
-                  A General Authority Seventy will address our 2,787 graduates at the first in-person commencement held
-                  on
-                  campus since December 2019.
-                </p>
-              </div>
-            </article>
-          </div>
-          <div>
-            <button class="button">Newsroom</button>
-          </div>
-        </div>
-        <div>
-
-          <img src="images/Ready_Teachers5.jpg" alt="Ready_Teachers5">
-          <h4 class="message-title">Teachers Who Know Me</h4>
-          <p class="message-description">
-            Faculty members are not only experts in their respective fields, but they also put teaching and mentoring
-            students as their top priority.
-          </p>
-          <button class="button">View</button>
-        </div>
-  </main>
-  <footer>
-    <div class="footer-blue-column">
-      <h3>Contact</h3>
-      <a class="footer-blue-column-link" target="_blank"
-        href="https://www.google.com/maps/place/525+S+Center+St,+Rexburg,+ID+83460/">
-        <span aria-hidden="true" class="icon-office">&nbsp;</span>
-        210 West 4th South Rexburg, ID, 83460
-      </a>
-      <a class="footer-blue-column-link" target="_blank" href="sms:12084961411">
-        <span aria-hidden="true" class="icon-text">&nbsp;</span>
-        TEXT: (208) 496-1411
-      </a>
-      <a class="footer-blue-column-link" target="_blank" href="tel:12084961411">
-        <span aria-hidden="true" class="icon-phone">&nbsp;</span>
-        CALL: (208) 496-1411
-      </a>
-      <a class="footer-blue-column-link" target="_blank" href="mailto:ask@byui.edu">
-        <span aria-hidden="true" class="icon-mail">&nbsp;</span>
-        ask@byui.edu
-      </a>
-      <a class="footer-blue-column-link" target="_blank" href="https://www.byui.edu/feedback/">
-        <span aria-hidden="true" class="icon-chat">&nbsp;</span>
-        Feedback
-      </a>
-      <a class="footer-blue-column-link" target="_blank" href="https://wa.me/12084961411">
-        <span aria-hidden="true" class="icon-whatsapp-icon4">&nbsp;</span>
-        WhatsApp
-      </a>
-    </div>
-    <div class="footer-blue-column">
-      <h3>Follow</h3>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/social-media/facebook">
-        <span aria-hidden="true" class="icon-facebook">&nbsp;</span>
-        Facebook
-      </a>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/social-media/instagram">
-        <span aria-hidden="true" class="icon-instagram">&nbsp;</span>
-        Instagram
-      </a>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/social-media/twitter">
-        <span aria-hidden="true" class="icon-twitter">&nbsp;</span>
-        Twitter
-      </a>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/social-media/youtube">
-        <span aria-hidden="true" class="icon-youtube">&nbsp;</span>
-        YouTube
-      </a>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/social-media/linkedin">
-        <span aria-hidden="true" class="icon-linkedin">&nbsp;</span>
-        LinkedIn
-      </a>
-    </div>
-    <div class="footer-blue-column">
-      <h3>Popular</h3>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/devotionals">Devotionals</a>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/financial-services/my-personal-account/i-card">ID
-        Cards</a>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/human-resources">Jobs and Employment</a>
-      <a class="footer-blue-column-link" target="_blank" href="https://tickets.byui.edu">Ticket Office</a>
-      <a class="footer-blue-column-link" target="_blank" href="https://web.byui.edu/WardsAndStakes">Wards and Stakes</a>
-    </div>
-    <div class="footer-blue-column">
-      <h3>Help</h3>
-      <a class="footer-blue-column-link" href="https://www.byui.edu/disabilities/">Disability Services</a>
-      <a class="footer-blue-column-link" href="https://td.byui.edu/TDClient/87/Portal/Home/">OneStop Help</a>
-      <a class="footer-blue-column-link" target="_blank" href="https://maps.byui.edu/">Campus Map</a>
-    </div>
-    <div class="footer-wrapper footer-gray">
-      <div class="footer">
-        <div class="footer-gray-column">
-          <h3>Popular Links</h3>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/directories/colleges-and-departments/">Academic
-            Programs</a>
-          <a class="footer-gray-column-link" href="https://activities.byui.edu/">Activities</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/admissions/">Admissions</a>
-          <a class="footer-gray-column-link" href="https://web.byui.edu/BulletinBoard2/">Bulletin Board for Housing</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/catalog/">Catalog</a>
-          <a class="footer-gray-column-link" href="https://my.byui.edu/ICS/Class_Schedule/">Class Schedule</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/devotionals/">Devotionals and Speeches</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/employment/">Employment Opportunities</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/financial-aid/">Financial Aid</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/food-services/">Food Services</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/giving/">Giving to BYU-Idaho</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/housing/">Housing</a>
-          <a class="footer-gray-column-link" href="https://ilearn.byui.edu/">I-Learn</a>
-          <a class="footer-gray-column-link" href="https://library.byui.edu/">Library</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/online/">Online Learning</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/student-records/">Registration</a>
-          <a class="footer-gray-column-link" href="https://activities.byui.edu/">Student Services and Activities</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/webcameras/">Web Cams, Road and Weather
-            Report</a>
-        </div>
-        <div class="footer-gray-column">
-          <h3>Registration</h3>
-          <a class="footer-gray-column-link"
-            href="https://www.byui.edu/student-honor-office/ecclesiastical-endorsement">Ecclesiastical Endorsements</a>
-          <a class="footer-gray-column-link"
-            href="https://www.byui.edu/registration/registration-schedule/">Registration dates</a>
-          <a class="footer-gray-column-link"
-            href="https://web.byui.edu/Services/Login/?RedirectURL=https://my.byui.edu">Registering online</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/catalog/">Course Offerings</a>
-          <a class="footer-gray-column-link"
-            href="https://www.byui.edu/admissions/current-students/deferments-time-off/">Deferment</a>
-          <h3>Help Tools</h3>
-          <a class="footer-gray-column-link" href="https://www.besmart.com/">Accept Admissions</a>
-          <a class="footer-gray-column-link" href="https://calendar.byui.edu/">Calendar</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/academic-discovery-center/">Career Advising</a>
-          <a class="footer-gray-column-link" href="https://byui.joinhandshake.com/">Handshake</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/Disabilities/">Disability Services Center</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/help-desk/">Help Desk (Technology)</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/international/">International Services</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/maps/">Maps</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/scheduling-office/">Room Scheduling</a>
-          <a class="footer-gray-column-link"
-            href="https://beta.byui.edu/academic-technology-services/student-technology-center/">Student Technology
-            Center</a>
-          <a class="footer-gray-column-link" href="https://www.myworkday.com/byuhi/d/home.htmld">Workday</a>
-          <a class="footer-gray-column-link" href="https://rexburgchamber.org/">Chamber of Commerce</a>
-          <a class="footer-gray-column-link" href="https://emergency.byui.edu/i-prepare">Emergency Prep</a>
-        </div>
-        <div class="footer-gray-column">
-          <h3>Academic Tools</h3>
-          <a class="footer-gray-column-link"
-            href="https://web.byui.edu/services/login?RedirectURL=https://my.byui.edu/ICS/Academics/Graduation_Application.jnz">Apply
-            for graduation</a>
-          <a class="footer-gray-column-link" href="https://my.byui.edu/ICS/Class_Schedule/">Class schedule</a>
-          <a class="footer-gray-column-link"
-            href="https://web.byui.edu/services/login?RedirectURL=https://my.byui.edu/ICS/Academics/Degree_Information.jnz">Degree
-            Audit</a>
-          <a class="footer-gray-column-link" href="https://outlook.office.com/owa/?realm=byui.edu">Email</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/financial-aid/">Financial Help &amp; Tools</a>
-          <a class="footer-gray-column-link" href="https://library.byui.edu/">Library</a>
-          <a class="footer-gray-column-link"
-            href="https://web.byui.edu/services/login?RedirectURL=https://my.byui.edu/ICS/Academics/">Grade Report</a>
-          <a class="footer-gray-column-link" href="https://ilearn.byui.edu/">I-Learn</a>
-          <a class="footer-gray-column-link"
-            href="https://web.byui.edu/PhysicalFacilities/LockerRentals/LockerRental.aspx">Locker Rentals</a>
-          <a class="footer-gray-column-link" href="https://my.byui.edu/">MY.BYUI.EDU</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/online/">Online Learning</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/testing-services">Testing Center</a>
-          <a class="footer-gray-column-link" href="https://www.byuistore.com/c-21-textbooks.aspx">Textbooks</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/academic-support-centers/">Tutoring Center</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/transcripts">Ordering Transcripts</a>
-        </div>
-        <div class="footer-gray-column">
-          <h3>Student Life</h3>
-          <a class="footer-gray-column-link" href="https://activities.byui.edu/">Activities</a>
-          <a class="footer-gray-column-link" href="https://www.byuistore.com/">Bookstore</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/bulletinboard/">Classified Ads</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/admissions/visit-campus/">Campus Tours</a>
-          <a class="footer-gray-column-link" href="https://web.byui.edu/BulletinBoard2/Rides.aspx">Carpools</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/dean-of-students/">Conflict Mediation</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/counseling-center/">Counseling Center</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/devotionals/">Devotionals &amp; Forums</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/event-management/">Event Management</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/food-services/">Food Services</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/health-center/">Health Center</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/StudentHonor/">Honor Code</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/housing/">Housing</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/financial-services/i-card">I-Card services</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/food-services/prices-and-plans/">Dining
-            Dollars</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/ParkingServices/">Parking Services</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/security/">Public Safety</a>
-          <a class="footer-gray-column-link" href="https://byuiscroll.org/">Scroll/I-Comm</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/human-resources/student-employment">Student
-            Employment</a>
-          <a class="footer-gray-column-link" href="https://www.byui.edu/tickets/">Ticket Office</a>
-        </div>
+        <aside class="component-spacing">
+          <h3 class="highlights-heading bg-blue">Important Dates</h3>
+          <div class="highlights-link">There is no event to display at the moment.</div>
+        </aside>
       </div>
     </div>
-    <div class="footer-wrapper footer-black">
-      <div class="footer">
-        <div class="footer-black-line">
-          <a class="footer-black-line-link" href="http:///www.byu.edu/">BYU</a><a class="footer-black-line-link"
-            href="http:///www.byuh.edu/">BYU Hawaii</a><a class="footer-black-line-link"
-            href="http://www.ldsbc.edu/">Ensign College</a><a class="footer-black-line-link"
-            href="https://byupathway.lds.org/">BYU-Pathway Worldwide</a>
-        </div>
-        <div class="footer-black-line">
-          <a class="footer-black-line-link" href="http://www.byui.edu/copyright/policy/terms-of-use/">
-            Copyright ©2022
-          </a><a class="footer-black-line-link" href="http://www.byui.edu/legal">Legal Notices</a><a
-            class="footer-black-line-link" href="http://www.byui.edu/metadata?xid=x77">Metadata</a>
-        </div>
+
+    <div id="intersetbox">
+      <div>
+        <a href="#"><img class="intersetbox" src="images/videos.jpg" alt="video">
+          <figcaption>Campus Videos</figcaption>
+        </a>
+      </div>
+      <div>
+        <a href="#"><img class="intersetbox" src="images/gallery.jpg" alt="photo gallery">
+          <figcaption>Photo Gallery</figcaption>
+        </a>
+      </div>
+      <div>
+        <a href="#"><img class="intersetbox" src="images/explore.jpg" alt="explore campus">
+          <figcaption>Explore Campus</figcaption>
+        </a>
       </div>
     </div>
-    <button id="contactUsButton" aria-label="Contact Us" onclick="contactUsLauncher.toggle()">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path
-          d="M12 1c-6.628 0-12 4.573-12 10.213 0 2.39.932 4.591 2.427 6.164l-2.427 5.623 7.563-2.26c9.495 2.598 16.437-3.251 16.437-9.527 0-5.64-5.372-10.213-12-10.213z">
-        </path>
-      </svg>
-    </button>
-  </footer>
+
+    <!--newsroom-->
+    <div class="news">
+      <div>
+        <article class="article">
+          <div class="row">
+            <div class="hidden-small">
+              <img src="images/winter2022.PNG" alt="winter" class="img-responsive">
+            </div>
+            <div class="article-date">
+              February 2,2022
+            </div>
+            <h4><a href="#">BYU-Idaho Winter 2022 Enrollment Figures Released</a></h4>
+            <p class="article-abstract">
+              Brigham Young University-Idaho has released its official Winter 2022 enrollment numbers for both
+              campus
+              and online.
+            </p>
+          </div>
+        </article>
+
+        <article class="article">
+          <div class="row">
+            <div class="hidden-small">
+              <img src="images/christmas.jpg" alt="christmas concert" class="img-responsive">
+            </div>
+            <div class="article-date">
+              December 9,2021
+            </div>
+            <h4><a href="#">“Best of” A BYU-Idaho Christmas to air on Idaho Public Television</a></h4>
+            <p class="article-abstract">
+              BYU-Idaho is pleased to present "Let the Light In," a collection of some of the best performances from
+              the University's past Christmas concerts.
+            </p>
+          </div>
+        </article>
+
+        <article class="article">
+          <div class="row">
+            <div class="hidden-small">
+              <img src="images/brent.jpg" alt="brent" class="img-responsive">
+            </div>
+            <div class="article-date">
+              December 9,2021
+            </div>
+            <h4><a href="#">Elder Brent H. Nielson to speak at fall commencement</a></h4>
+            <p class="article-abstract">
+              A General Authority Seventy will address our 2,787 graduates at the first in-person commencement held
+              on
+              campus since December 2019.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div>
+        <button class="button">Newsroom</button>
+      </div>
+    </div>
+    <div>
+      <footer></footer>
 </body>
 
 </html>
