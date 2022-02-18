@@ -1,0 +1,21 @@
+//make column classes 
+$num-row : 5;
+$one-row : 100% / $num_row;
+$loop-start: 1;
+$loop-end: $num-row+1;
+$one-row: 20%;
+
+@mixin row($span-num) {
+    flex: 0 0 20% * $span-num;
+}
+
+@mixin row($span-num) {
+    flex: 0 0 $one-row * $span-num;
+}
+
+//make row classes 
+@for $index from $loop-start to $loop-end {
+    .row-#{$index} {
+        @include row($index);
+    }
+}

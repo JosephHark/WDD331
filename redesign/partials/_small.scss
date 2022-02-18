@@ -1,3 +1,5 @@
+@import 'row_loop';
+
 .btn-blue {
     background-color: #0076B6;
     color: #fff !important;
@@ -249,3 +251,8 @@
     color: #0076B6;
     text-decoration: none;
   }
+ .info{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto auto auto auto auto auto;
+ }
