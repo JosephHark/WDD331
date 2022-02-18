@@ -8,7 +8,6 @@
 [class^="icon-"],
 [class*=" icon-"] {
     font-family: 'icomoon' !important;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -2406,8 +2405,12 @@ footer .footer-black-line-link:hover {
     border: 1px solid #EAEAEA
 }
 
-footer .footer-blue {
-    background-color: #0076B6
+footer .footer-blue-column {
+    background-color: #0076B6;
+}
+
+header {
+    background-color: #0076B6;
 }
 
 footer .footer-blue-column-link {

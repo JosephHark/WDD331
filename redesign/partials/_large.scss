@@ -41,4 +41,8 @@
         width: 25%;
         height: auto;
     }
+    #intersetbox{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
 }

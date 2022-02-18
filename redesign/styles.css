@@ -8,7 +8,6 @@
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: 400;
   font-variant: normal;
@@ -2400,7 +2399,11 @@ footer .footer-black-line-link:hover {
   border: 1px solid #EAEAEA;
 }
 
-footer .footer-blue {
+footer .footer-blue-column {
+  background-color: #0076B6;
+}
+
+header {
   background-color: #0076B6;
 }
 
@@ -2729,6 +2732,50 @@ footer .footer-gray-column-link + h3 {
   }
 }
 
+.news {
+  display: inline;
+}
+
+.article {
+  padding: 25px 0;
+  border-top: 1px solid #B4B3B5;
+}
+
+.article-abstract {
+  margin-bottom: 12px;
+}
+
+.article-date {
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.article-link {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.article-thumbnail {
+  max-height: 200px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.article-highlight-overlay {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.button {
+  border: 1px solid #B4B3B5;
+  display: block;
+  padding: 10px 18px;
+  text-align: left;
+  width: 100%;
+}
+
 @media screen and (min-width: 600px) {
   *:before,
   *:after {
@@ -2755,6 +2802,12 @@ footer .footer-gray-column-link + h3 {
   .img-responsive {
     width: 25%;
     height: auto;
+  }
+  #intersetbox {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr;
   }
 }
 /*# sourceMappingURL=styles.css.map */
