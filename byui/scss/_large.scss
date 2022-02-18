@@ -1,0 +1,14 @@
+.intersetbox {
+    width: 75%;
+    height: auto;
+  }
+  .img-responsive {
+    width: 25%;
+    height: auto;
+  }
+  #intersetbox {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
