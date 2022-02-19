@@ -39,6 +39,10 @@
       grid-template-columns: 2fr;
 }
 
+.img-responsive {
+  display: inline-block;
+}
+
 a,
 a:hover {
   color: #0076B6;
@@ -68,9 +72,13 @@ a:hover {
   border: 1px solid #727272;
 }
 
-.intersetbox {
+.article {
   padding: 25px 0;
   border-top: 1px solid #B4B3B5;
+}
+
+.img-responsive {
+  display: none;
 }
 
 *,
