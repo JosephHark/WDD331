@@ -1,5 +1,42 @@
 @import 'scss/large';
-@import 'scss/small';
+
+.intersetbox {
+  width: 75%;
+  height: auto;
+}
+
+.img-responsive {
+  width: 25%;
+  height: auto;
+  display: inline-block;
+}
+
+#intersetbox {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.opening {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-gap: 75px 5px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.opening>aside {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 2fr;
+}
 
 $sm-break: 48em;
 // colors
@@ -18,9 +55,11 @@ $byui-blue: #056cb6;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 img {
   max-width: 100%;
 }
+
 .sr-only {
   position: absolute;
   width: 1px;

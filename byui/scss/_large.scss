@@ -5,6 +5,7 @@
   .img-responsive {
     width: 25%;
     height: auto;
+    display: inline-block;
   }
   #intersetbox {
     display: -ms-grid;
@@ -30,6 +31,3 @@
     display: grid;
     grid-template-columns:2fr;
   }
-  .img-responsive{
-    display: inline-block;
-}
