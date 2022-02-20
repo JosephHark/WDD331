@@ -4,8 +4,6 @@
     height: auto;
   }
   .img-responsive {
-    width: 25%;
-    height: auto;
     display: inline-block;
   }
   #intersetbox {
@@ -18,18 +16,11 @@
     display: grid;
     grid-template-columns: 6fr 4fr;
     grid-gap: 75px 5px;
-    background-color: #2196F3;
     padding: 10px;
   }
-  
-  .opening > aside {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
-  .aside{
+  .article{
     display: grid;
-    grid-template-columns:2fr;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 25px 15px;
   }
 }
