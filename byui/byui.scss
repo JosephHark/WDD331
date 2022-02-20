@@ -19,7 +19,14 @@ $byui-blue: #056cb6;
 img {
   max-width: 100%;
 }
-
+.university-info-banner {
+  background: black;
+  color: white;
+  padding: 20px 40PX;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -110,7 +117,7 @@ p {
   margin-bottom: 12px;
 }
 
-.button {
+.btn-blue {
   background-color: #005d90;
   color: #fff !important;
   display: inline-block;
@@ -134,7 +141,7 @@ p {
   text-transform: inherit;
 }
 
-.common-header {
+.site-header{
   background-color: #0076B6;
   height: 60px;
 }

@@ -9,6 +9,20 @@ img {
   max-width: 100%;
 }
 
+.university-info-banner {
+  background: black;
+  color: white;
+  padding: 20px 40PX;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -101,7 +115,7 @@ p {
   margin-bottom: 12px;
 }
 
-.button {
+.btn-blue {
   background-color: #005d90;
   color: #fff !important;
   display: inline-block;
@@ -125,7 +139,7 @@ p {
   text-transform: inherit;
 }
 
-.common-header {
+.site-header {
   background-color: #0076B6;
   height: 60px;
 }
