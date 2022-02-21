@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Creating a CSS Curtain Opening Effect</h1>
+    </header>
+    <main>
+        <!-- The parent component The curtain holds all the both "sides of the door"-->
+        <div class="curtain">
+            <div class="curtain__wrapper">
+                <!-- The checkbox hack! You use a connected <label> and hidden <input type="checkbox"> But just because the checkbox is hidden, clicking the <label> still toggles its value on and off.-->
+                <input type="checkbox" checked>
+                <!-- The left curtain panel slides left to reveal prize -->
+                <div class="curtain__panel curtain__panel--left">
+                    <h1>Click to reveal&nbsp;</h1> <!--Intro Text-->
+                </div>
+                <!-- The prize behind the curtain panels the "prize" -->
+                <div class="curtain__prize">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/trophy.svg">
+                    <h2>Achievement Unlocked!</h2> <!--The award-->
+                </div> <!-- curtain__prize -->
+                <!-- The right curtain panel slides right to reveal prize-->
+                <div class="curtain__panel curtain__panel--right">
+                    <h1>a special reward...</h1><!--Intro Text-->
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
