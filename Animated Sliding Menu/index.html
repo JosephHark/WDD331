@@ -8,29 +8,37 @@
 </head>
 
 <body>
-    <header>
-        <h1>Animated Sliding Menu</h1>
-    </header>
     <main>
-        <div class="menu-icon" id="menu-icon" onclick="toggleNav()">
-            <span>
-                <div class="item">
-                    <h2>One</h2>
+        <div class="menu-icon " id="menu-icon" onclick="toggleNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div id="under">
+                <h1>Animated Sliding Menu</h1>
+                <p>All the Things.</p>
+            </div>
+            <div id="sidebar">
+                <div>
+                    <ul>
+                        <li>
+                            <h2>
+                                <a href="#">One</a>
+                            </h2>
+                            <h2>
+                                <a href="#">Two</a>
+                            </h2>
+                            <h2>
+                                <a href="#">Three</a>
+                            </h2>
+                            <h2>
+                                <a href="#">Four</a>
+                            </h2>
+                        </li>
+                    </ul>
                 </div>
-
-                <div class="item">
-                    <h2>Two</h2>
-                </div>
-
-                <div class="item">
-                    <h2>Three</h2>
-                </div>
-
-                <div class="item">
-                    <h2>Four</h2>
-                </div>
-            </span>
+            </div>
         </div>
+
     </main>
     <script src="main.js"></script>
 </body>
