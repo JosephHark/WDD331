@@ -1,6 +1,7 @@
 $body-bg:rgb(28, 28, 28);
-
-
+$body-color:white;
+$primary: rgb(0, 119, 255);
+$font-family-sans-serif: 'Poppins', sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 .navbar-collapse{
     justify-content: flex-end;
