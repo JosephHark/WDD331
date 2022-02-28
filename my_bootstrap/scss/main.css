@@ -11967,4 +11967,15 @@ fieldset:disabled .btn {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.customer-pg {
+  background: black url("../images/abstract.91fe92b5.jpg");
+}
 /*# sourceMappingURL=main.css.map */
