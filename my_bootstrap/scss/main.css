@@ -11978,4 +11978,16 @@ fieldset:disabled .btn {
 .customer-pg {
   background: black url("../images/abstract.91fe92b5.jpg");
 }
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background: #2e2e2e;
+}
+
+.card-body p {
+  background: #c2c2c2;
+}
 /*# sourceMappingURL=main.css.map */
