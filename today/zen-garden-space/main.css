@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 .page-wrapper {
   display: -ms-grid;
   display: grid;
@@ -89,6 +90,64 @@ body {
     grid-column: 1/2;
     -ms-grid-row: 2;
     grid-row: 2;
+  }
+}
+
+h1,
+h2, h3 {
+  font-family: "Space Mono", "monospace";
+  color: #a1ce3f;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+    margin: 1em 0 1.4em;
+  }
+}
+
+/* number before each section title */
+p {
+  font-family: "Space Mono", "monospace";
+  color: #cbe58e;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+p a {
+  color: #013026;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.6rem;
+    line-height: 1.6;
   }
 }
 

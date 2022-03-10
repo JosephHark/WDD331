@@ -1,120 +1,46 @@
-.page-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-}
-
-.sidebar {
-  grid-column: 2/3;
-  grid-row: 4;
-}
-
-.intro {
-  grid-column: 2/3;
-  grid-row: 1;
-}
-
-.main {
-  grid-column: 2/3;
-  grid-row: 3;
-}
-
-.preamble {
-  grid-column: 2/3;
-  grid-row: 2;
-}
-
-body {
-  background-color: #03031A;
-  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=');
-
-}
-
-@media screen and (min-width: 600px) {
-  .page-wrapper {
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    grid-column-gap: 2em;
-  }
-
-  .intro {
-    grid-column: 1/ span 2;
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    grid-column-gap: 2em;
-  }
-
-  .summary {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-  }
-
-  .preamble {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-  }
-
-  .main {
-    grid-column: 2/3;
-    grid-row: 2;
-  }
-
-  .sidebar {
-    grid-column: 1/2;
-    grid-row: 2;
-  }
-}
-
-
-//@import 'partials/typography';
+@import 'partials/small';
+@import 'partials/large';
+@import 'partials/typography';
 
 //Setting up keyframe for side-to-side rotation
 @keyframes rotation {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  25% {
-    -webkit-transform: rotate(5deg);
-  }
-
-  50% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  75% {
-    -webkit-transform: rotate(-5deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+      }
+      25% {
+        -webkit-transform: rotate(5deg);
+      }
+      50% {
+        -webkit-transform: rotate(0deg);
+      }
+      75% {
+        -webkit-transform: rotate(-5deg);
+      }
+      100% {
+        -webkit-transform: rotate(0deg);
+      }
 }
 
 //Making sidebar divs rotate
 .design-selection {
-  animation: rotation 6s infinite linear;
-
-  &:hover {
-    animation-play-state: paused;
-  }
+    animation: rotation 6s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
 }
-
 .design-archives {
-  animation: rotation 7s infinite linear;
-
-  &:hover {
-    animation-play-state: paused;
-  }
+    animation: rotation 7s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
 }
-
 .zen-resources {
-  animation: rotation 5s infinite linear;
-
-  &:hover {
-    animation-play-state: paused;
-  }
+    animation: rotation 5s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
 }
 
-.wrapper>div {
-  padding: .3em;
+.wrapper > div {
+    padding: .3em;
 }
