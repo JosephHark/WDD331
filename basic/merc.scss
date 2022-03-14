@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c2541;
+  }
+  
+  .milkyWay {
+    position: relative;
+  }
+  .planetOne {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    border: 1px solid #fff;
+    top:-35px;
+    left:-35px;
+  }
+  
+  .mercury {
+    position: absolute;
+    width: 15px;
+    height:15px;
+    border-radius:50%;
+    background-color: #c9a227;
+    top:20px;
+    left:2px;
+  }  
