@@ -28,18 +28,6 @@ body {
   animation: spin 88s linear infinite;
 }
 
-.venus {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background-color: #ff9b85;
-  top: 90px;
-  left: -8px;
-  -webkit-animation: spin 243s linear infinite;
-  animation: spin 243s linear infinite;
-}
-
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
@@ -53,6 +41,31 @@ body {
 }
 
 @keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes spin2 {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@keyframes spin2 {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
