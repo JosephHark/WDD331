@@ -18,10 +18,23 @@ body {
     background-color: #c9a227;
     top: 20px;
     left: 2px;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    -webkit-animation: spin 88s linear infinite;
+    -moz-animation: spin 88s linear infinite;
+    animation: spin 88s linear infinite;
 }
+
+.venus {
+    position: absolute;
+    width: 18px;
+    height:18px;
+    border-radius:50%;
+    background-color: #ff9b85;
+    top:90px;
+    left:-8px;
+    -webkit-animation: spin 243s linear infinite;
+    -moz-animation: spin 243s linear infinite;
+    animation: spin 243s linear infinite;
+  }
 
 @-moz-keyframes spin {
     100% {
