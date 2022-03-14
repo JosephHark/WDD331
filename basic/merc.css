@@ -17,13 +17,13 @@ body {
 }
 
 .mercury {
-  background-color: #c9a227;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 120px;
-  height: 120px;
-  margin: -60px 0 0 -60px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #c9a227;
+  top: 20px;
+  left: 2px;
   -webkit-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
 }
@@ -32,12 +32,24 @@ body {
   100% {
     -webkit-transform: rotate(360deg);
   }
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
 }
 
 @keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
   }
 }
 /*# sourceMappingURL=merc.css.map */
