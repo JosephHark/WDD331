@@ -1,15 +1,10 @@
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  position: fixed;
+  left: 0;
   height: 100vh;
   background-color: #1c2541;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .milkyWay {
@@ -51,49 +46,32 @@ body {
   height: auto;
   top: 20px;
   left: 2px;
-  -webkit-animation: spin 4s linear infinite;
-  animation: spin 4s linear infinite;
+  -webkit-animation: spin 88s linear infinite;
+  animation: spin 88s linear infinite;
+}
+
+.planetTwo:nth-child(1) div:after {
+  content: url(./images/Venus-SAVE.png);
+  position: absolute;
+  top: 90px;
+  left: -8px;
+  width: 50%;
+  height: auto;
+  -webkit-animation: spin 225s linear infinite;
+  animation: spin 225s linear infinite;
+}
+
+.planetTwo:nth-child(2) div:after {
+  content: url(./images/1538274962.png);
+  left: 100px;
+  top: -10px;
+  width: 50%;
+  height: auto;
+  -webkit-animation: spin 365s linear infinite;
+  animation: spin 365s linear infinite;
 }
 
 /*
-  .venus {
-    position: absolute;
-    width: 18px;
-    height:18px;
-    border-radius:50%;
-    background-color: #ff9b85;
-    top:90px;
-    left:-8px;
-    -webkit-animation: spin 225s linear infinite;
-    -moz-animation: spin 225s linear infinite;
-    animation: spin 225s linear infinite;
-  }
-  
-  .earth {
-    position: absolute;
-    width: 22px;
-    height:22px;
-    border-radius:50%;
-    background-color: #0496ff;
-    left:100px;
-    top:-10px;
-    overflow:hidden;
-    -webkit-animation: spin 365s linear infinite;
-    -moz-animation: spin 365s linear infinite;
-    animation: spin 365s linear infinite;
-  }
-  
-  .earth:before {
-    content:"";
-    position: absolute;
-    width:10px;
-    height:5px;
-    border-radius:10px;
-    background-color: #38b000;
-    box-shadow: 5px 5px #38b000, 10px 5px #38b000, -2px 10px #38b000, 15px 10px #38b000,5px 15px #38b000;
-  }
-
-  
   .mars {
     position: absolute;
     width: 16px;
