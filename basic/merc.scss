@@ -1,3 +1,8 @@
+$sunw:546px;
+$sunbw:$sunw+70px;
+$sunaw:$sunbw+20px;
+
+
 body {
   display: flex;
   justify-content: center;
@@ -12,8 +17,8 @@ body {
 
 .sun {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: $sunw;
+  height: $sunw;
   border-radius: 50%;
   background-color: #ffd100;
 }
@@ -27,24 +32,23 @@ body {
 }
 
 .sun:before {
-  width: 70px;
-  height: 70px;
+  width: $sunbw;
+  height: $sunbw;
   top: -10px;
   left: -10px;
 }
 
 .sun:after {
-  width: 90px;
-  height: 90px;
+  width: $sunaw;
+  height: $sunaw;
   top: -20px;
   left: -20px;
 }
 
 .mercury {
-  width: 50%;
-  height: auto;
   top: 20px;
   left: 2px;
+  overflow-x: hidden;
   -webkit-animation: spin 88s linear infinite;
   -moz-animation: spin 88s linear infinite;
   animation: spin 88s linear infinite;
@@ -54,8 +58,7 @@ body {
   position: absolute;
   top: 90px;
   left: -8px;
-  width: 50%;
-  height: auto;
+  overflow-x: hidden;
   -webkit-animation: spin 225s linear infinite;
   -moz-animation: spin 225s linear infinite;
   animation: spin 225s linear infinite;
@@ -64,8 +67,7 @@ body {
 .earth{
   left: 100px;
   top: -10px;
-  width: 50%;
-  height: auto;
+  overflow-x: hidden;
   -webkit-animation: spin 365s linear infinite;
   -moz-animation: spin 365s linear infinite;
   animation: spin 365s linear infinite;
@@ -76,6 +78,7 @@ body {
   position: absolute;
   top: 200px;
   left: 12px;
+  overflow-x: hidden;
   -webkit-animation: spin 687s linear infinite;
   -moz-animation: spin 687s linear infinite;
   animation: spin 687s linear infinite;
@@ -83,6 +86,9 @@ body {
 
 .jupiter {
   position: absolute;
+  top:-140px;
+  left:-140px;
+  overflow-x: hidden;
   -webkit-animation: spin 4333s linear infinite;
   -moz-animation: spin 4333s linear infinite;
   animation: spin 4333s linear infinite;
@@ -90,26 +96,29 @@ body {
 
 .saturn {
   position: absolute;
-  width: 25px;
-  height: 25px;
+  top:-170px;
+  left:-170px;
+  overflow-x: hidden;
   -webkit-animation: spin 10755s linear infinite;
   -moz-animation: spin 10755s linear infinite;
   animation: spin 10755s linear infinite;
 }
 
 .uranus {
+  top:-200px;
+  left:-200px;
+  overflow-x: hidden;
   position: absolute;
-  width: 22px;
-  height: 22px;
   -webkit-animation: spin 30687s linear infinite;
   -moz-animation: spin 30687s linear infinite;
   animation: spin 30687s linear infinite;
 }
 
 .neptune {
+  top:-230px;
+  left:-230px;
+  overflow-x: hidden;
   position: absolute;
-  width: 22px;
-  height: 22px;
   -webkit-animation: spin 60190s linear infinite;
   -moz-animation: spin 60190s linear infinite;
   animation: spin 60190s linear infinite;
