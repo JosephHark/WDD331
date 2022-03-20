@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel ./src/index.html",
+    "start": "parcel ./src/zen.html",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html  --out-dir build"
+    "build": "parcel build --public-url ././src/zen.html  --out-dir build"
   },
   "keywords": [],
   "author": "",
