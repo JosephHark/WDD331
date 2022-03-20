@@ -71,109 +71,45 @@ body {
   animation: spin 365s linear infinite;
 }
 
-/*
-  .mars {
-    position: absolute;
-    width: 16px;
-    height:16px;
-    border-radius:50%;
-    background-color: #db3a34;
-    top:200px;
-    left:12px;
-    -webkit-animation: spin 687s linear infinite;
-    -moz-animation: spin 687s linear infinite;
-    animation: spin 687s linear infinite;
-  }
- 
-  .jupiter {
-    position: absolute;
-    border-radius:50%;
-    background-color: #ff9100;
-    width:28px;
-    height:28px;
-    overflow: hidden;
-    -webkit-animation: spin 4333s linear infinite;
-    -moz-animation: spin 4333s linear infinite;
-    animation: spin 4333s linear infinite;
-  }
-  
-  .jupiter:before {
-    content:"";
-    position: absolute;
-    border-radius:20px;
-    width:12px;
-    height:5px;
-    background-color: rgba(255,255,255,0.3);
-    box-shadow: 15px 10px rgba(255,255,255,0.3), 5px 15px rgba(255,255,255,0.3),5px 25px rgba(255,255,255,0.3);
-  }
+.mars {
+  position: absolute;
+  top: 200px;
+  left: 12px;
+  -webkit-animation: spin 687s linear infinite;
+  animation: spin 687s linear infinite;
+}
 
-  .saturn {
-    position: absolute;
-    width:25px;
-    height: 25px;
-    border-radius:50%;
-    background-color: #4281a4;
-    transform-style: preserve-3d;
-    -webkit-animation: spin 10755s linear infinite;
-    -moz-animation: spin 10755s linear infinite;
-    animation: spin 10755s linear infinite;
-  }
-  
-  .saturn:before {
-    content:"";
-    position: absolute;
-    border: solid 7px #9cafb7;
-    border-radius: 50%;
-    width: 35px;
-    height: 28px;
-    transform: rotate3d(1, 0, 0, 75deg); 
-    left:-12px;
-    top:-8px;
-  }
-  .uranus {
-    position: absolute; 
-    width:22px;
-    height: 22px;
-    border-radius:50%;
-    background-color: #004e89;
-    overflow: hidden;
-    -webkit-animation: spin  30687s linear infinite;
-    -moz-animation: spin  30687s linear infinite;
-    animation: spin  30687s linear infinite;
-  }
-  
-  .uranus:before {
-    content:"";
-    position: absolute;
-    background-color: #1a659e;
-    width:15px;
-    height:3px;
-    border-radius:10px;
-    box-shadow: 5px 5px #1a659e, -5px 15px #1a659e;
-  }
+.jupiter {
+  position: absolute;
+  overflow: hidden;
+  -webkit-animation: spin 4333s linear infinite;
+  animation: spin 4333s linear infinite;
+}
 
-  .neptune {
-    position: absolute; 
-    width:22px;
-    height: 22px;
-    border-radius:50%;
-    background-color: #004e89;
-    overflow: hidden;
-    -webkit-animation: spin 60190s linear infinite;
-    -moz-animation: spin 60190s linear infinite;
-    animation: spin 60190s linear infinite;
-  }
-  
-  .neptune:before {
-    content:"";
-    position: absolute;
-    background-color: #1a659e;
-    width:15px;
-    height:3px;
-    border-radius:10px;
-    box-shadow: 5px 5px #1a659e, -5px 15px #1a659e;
-  }
-*/
+.saturn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  -webkit-animation: spin 10755s linear infinite;
+  animation: spin 10755s linear infinite;
+}
+
+.uranus {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  -webkit-animation: spin  30687s linear infinite;
+  animation: spin  30687s linear infinite;
+}
+
+.neptune {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  -webkit-animation: spin 60190s linear infinite;
+  animation: spin 60190s linear infinite;
+}
 
 @-webkit-keyframes spin {
   100% {
