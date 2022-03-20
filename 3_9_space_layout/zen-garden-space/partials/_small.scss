@@ -24,3 +24,171 @@
         background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=');
         
       }
+      $sunw:546px;
+$sunbw:$sunw+70px;
+$sunaw:$sunbw+20px;
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c2541;
+}
+
+.milkyWay {
+  position: relative;
+}
+
+.sun {
+  position: relative;
+  width: $sunw;
+  height: $sunw;
+  border-radius: 50%;
+  background-color: #ffd100;
+}
+
+.sun:before,
+.sun:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 209, 0, 0.1);
+  border-radius: 50%;
+}
+
+.sun:before {
+  width: $sunbw;
+  height: $sunbw;
+  top: -10px;
+  left: -10px;
+}
+
+.sun:after {
+  width: $sunaw;
+  height: $sunaw;
+  top: -20px;
+  left: -20px;
+}
+
+.mercury {
+  top: 20px;
+  left: 2px;
+  overflow-x: hidden;
+  -webkit-animation: spin 88s linear infinite;
+  -moz-animation: spin 88s linear infinite;
+  animation: spin 88s linear infinite;
+}
+
+.venus{
+  position: absolute;
+  top: 90px;
+  left: -8px;
+  overflow-x: hidden;
+  -webkit-animation: spin 225s linear infinite;
+  -moz-animation: spin 225s linear infinite;
+  animation: spin 225s linear infinite;
+}
+
+.earth{
+  left: 100px;
+  top: -10px;
+  overflow-x: hidden;
+  -webkit-animation: spin 365s linear infinite;
+  -moz-animation: spin 365s linear infinite;
+  animation: spin 365s linear infinite;
+}
+
+
+.mars {
+  position: absolute;
+  top: 200px;
+  left: 12px;
+  overflow-x: hidden;
+  -webkit-animation: spin 687s linear infinite;
+  -moz-animation: spin 687s linear infinite;
+  animation: spin 687s linear infinite;
+}
+
+.jupiter {
+  position: absolute;
+  top:-140px;
+  left:-140px;
+  overflow-x: hidden;
+  -webkit-animation: spin 4333s linear infinite;
+  -moz-animation: spin 4333s linear infinite;
+  animation: spin 4333s linear infinite;
+}
+
+.saturn {
+  position: absolute;
+  top:-170px;
+  left:-170px;
+  overflow-x: hidden;
+  -webkit-animation: spin 10755s linear infinite;
+  -moz-animation: spin 10755s linear infinite;
+  animation: spin 10755s linear infinite;
+}
+
+.uranus {
+  top:-200px;
+  left:-200px;
+  overflow-x: hidden;
+  position: absolute;
+  -webkit-animation: spin 30687s linear infinite;
+  -moz-animation: spin 30687s linear infinite;
+  animation: spin 30687s linear infinite;
+}
+
+.neptune {
+  top:-230px;
+  left:-230px;
+  overflow-x: hidden;
+  position: absolute;
+  -webkit-animation: spin 60190s linear infinite;
+  -moz-animation: spin 60190s linear infinite;
+  animation: spin 60190s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+
+  from {
+    -moz-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+
+  from {
+    -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  from {
+    -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
