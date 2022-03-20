@@ -1,15 +1,18 @@
-$color-1: #013026; 
-$color-2: #014760; 
-$color-3: #107e57; 
-$color-4: #a1ce3f; 
+$color-1: #013026;
+$color-2: #014760;
+$color-3: #107e57;
+$color-4: #a1ce3f;
 $color-5: #cbe58e;
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-$header-font: 'Space Mono', 'monospace';
-$body-font: 'Space Mono', 'monospace';
+$header-font: 'Space Mono',
+'monospace';
+$body-font: 'Space Mono',
+'monospace';
 
 h1,
-h2, h3 {
+h2,
+h3 {
   font-family: $header-font;
   color: $color-4;
 }
@@ -19,34 +22,21 @@ h1 {
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 0.4em;
-
-  @include MQ(S) {
-    font-size: 3.2rem;
-  }
-
-  @include MQ(M) {
-    font-size: 4rem;
-  }
 }
 
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0;
-
-  @include MQ(S) {
-    font-size: 1.8rem;
-    margin: 1em 0 1.4em;
-  }
 }
 
-section > h2::before {
- color: darken($color-4, 15%);
+section>h2::before {
+  color: darken($color-4, 15%);
 }
 
 p {
-    font-family:$body-font;
-    color:$color-5;
+  font-family: $body-font;
+  color: $color-5;
   font-size: 1.4rem;
   line-height: 1.4;
   color: lighten($color-2, 25%);
@@ -54,10 +44,5 @@ p {
   a {
     color: $color-1;
     text-decoration: underline;
-  }
-
-  @include MQ(S) {
-    font-size: 1.6rem;
-    line-height: 1.6;
   }
 }
