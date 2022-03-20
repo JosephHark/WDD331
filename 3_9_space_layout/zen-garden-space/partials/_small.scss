@@ -47,6 +47,7 @@ body {
   height: $sunw;
   border-radius: 50%;
   background-color: #ffd100;
+  z-index: -1;
 }
 
 .sun:before,
@@ -55,6 +56,7 @@ body {
   position: absolute;
   background-color: rgba(255, 209, 0, 0.1);
   border-radius: 50%;
+  z-index: -1;
 }
 
 .sun:before {
@@ -75,6 +77,7 @@ body {
   top: 20px;
   left: 2px;
   overflow-x: hidden;
+  z-index: -1;
   -webkit-animation: spin 88s linear infinite;
   -moz-animation: spin 88s linear infinite;
   animation: spin 88s linear infinite;
@@ -85,6 +88,7 @@ body {
   top: 90px;
   left: -8px;
   overflow-x: hidden;
+  z-index: -1;
   -webkit-animation: spin 225s linear infinite;
   -moz-animation: spin 225s linear infinite;
   animation: spin 225s linear infinite;
@@ -94,6 +98,7 @@ body {
   left: 100px;
   top: -10px;
   overflow-x: hidden;
+  z-index: -1;
   -webkit-animation: spin 365s linear infinite;
   -moz-animation: spin 365s linear infinite;
   animation: spin 365s linear infinite;
@@ -105,6 +110,7 @@ body {
   top: 200px;
   left: 12px;
   overflow-x: hidden;
+  z-index: -1;
   -webkit-animation: spin 687s linear infinite;
   -moz-animation: spin 687s linear infinite;
   animation: spin 687s linear infinite;
@@ -115,6 +121,7 @@ body {
   top:-140px;
   left:-140px;
   overflow-x: hidden;
+  z-index: -1;
   -webkit-animation: spin 4333s linear infinite;
   -moz-animation: spin 4333s linear infinite;
   animation: spin 4333s linear infinite;
@@ -125,6 +132,7 @@ body {
   top:-170px;
   left:-170px;
   overflow-x: hidden;
+  z-index: -1;
   -webkit-animation: spin 10755s linear infinite;
   -moz-animation: spin 10755s linear infinite;
   animation: spin 10755s linear infinite;
@@ -135,6 +143,7 @@ body {
   left:-200px;
   overflow-x: hidden;
   position: absolute;
+  z-index: -1;
   -webkit-animation: spin 30687s linear infinite;
   -moz-animation: spin 30687s linear infinite;
   animation: spin 30687s linear infinite;
@@ -145,6 +154,7 @@ body {
   left:-230px;
   overflow-x: hidden;
   position: absolute;
+  z-index: -1;
   -webkit-animation: spin 60190s linear infinite;
   -moz-animation: spin 60190s linear infinite;
   animation: spin 60190s linear infinite;
