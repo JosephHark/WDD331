@@ -1,6 +1,7 @@
 $sunw:546px;
 $sunbw:$sunw+70px;
 $sunaw:$sunbw+20px;
+
 .sun {
     position: relative;
     width: $sunw/2;
@@ -31,7 +32,52 @@ $sunaw:$sunbw+20px;
     height: $sunaw/2;
     top: -20px;
     left: -20px;
+
 }
+
+.mercury {
+    top: 20px;
+    left: 2px;
+    overflow-x: hidden;
+    z-index: -1;
+    -webkit-animation: spin 88s linear infinite;
+    -moz-animation: spin 88s linear infinite;
+    animation: spin 88s linear infinite;
+}
+
+.venus {
+    position: absolute;
+    top: 90px;
+    left: -8px;
+    overflow-x: hidden;
+    z-index: -1;
+    -webkit-animation: spin 225s linear infinite;
+    -moz-animation: spin 225s linear infinite;
+    animation: spin 225s linear infinite;
+}
+
+.earth {
+    left: 100px;
+    top: -10px;
+    overflow-x: hidden;
+    z-index: -1;
+    -webkit-animation: spin 365s linear infinite;
+    -moz-animation: spin 365s linear infinite;
+    animation: spin 365s linear infinite;
+}
+
+
+.mars {
+    position: absolute;
+    top: 200px;
+    left: 12px;
+    overflow-x: hidden;
+    z-index: -1;
+    -webkit-animation: spin 687s linear infinite;
+    -moz-animation: spin 687s linear infinite;
+    animation: spin 687s linear infinite;
+}
+
 .jupiter {
     position: absolute;
     top: -140px;
@@ -41,7 +87,7 @@ $sunaw:$sunbw+20px;
     -webkit-animation: spin 4333s linear infinite;
     -moz-animation: spin 4333s linear infinite;
     animation: spin 4333s linear infinite;
-    
+
 }
 
 .saturn {
@@ -76,19 +122,24 @@ $sunaw:$sunbw+20px;
     -moz-animation: spin 60190s linear infinite;
     animation: spin 60190s linear infinite;
 }
-.lg{
+
+.lg {
     display: none;
 }
-.planet{
+
+.planet {
     opacity: 45%;
 }
+
 @media screen and (min-width: 600px) {
-    .lg{
+    .lg {
         display: block;
     }
-    .sm{
+
+    .sm {
         display: none;
     }
+
     .milkyWay {
         display: flex;
         justify-content: center;
@@ -180,7 +231,7 @@ $sunaw:$sunbw+20px;
         -webkit-animation: spin 4333s linear infinite;
         -moz-animation: spin 4333s linear infinite;
         animation: spin 4333s linear infinite;
-        
+
     }
 
     .saturn {
@@ -214,5 +265,48 @@ $sunaw:$sunbw+20px;
         -webkit-animation: spin 60190s linear infinite;
         -moz-animation: spin 60190s linear infinite;
         animation: spin 60190s linear infinite;
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+
+    from {
+        -moz-transform: rotate(0deg) translateX(250px) rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+
+    from {
+        -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    from {
+        -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
     }
 }

@@ -31,6 +31,44 @@
   left: -20px;
 }
 
+.mercury {
+  top: 20px;
+  left: 2px;
+  overflow-x: hidden;
+  z-index: -1;
+  -webkit-animation: spin 88s linear infinite;
+  animation: spin 88s linear infinite;
+}
+
+.venus {
+  position: absolute;
+  top: 90px;
+  left: -8px;
+  overflow-x: hidden;
+  z-index: -1;
+  -webkit-animation: spin 225s linear infinite;
+  animation: spin 225s linear infinite;
+}
+
+.earth {
+  left: 100px;
+  top: -10px;
+  overflow-x: hidden;
+  z-index: -1;
+  -webkit-animation: spin 365s linear infinite;
+  animation: spin 365s linear infinite;
+}
+
+.mars {
+  position: absolute;
+  top: 200px;
+  left: 12px;
+  overflow-x: hidden;
+  z-index: -1;
+  -webkit-animation: spin 687s linear infinite;
+  animation: spin 687s linear infinite;
+}
+
 .jupiter {
   position: absolute;
   top: -140px;
@@ -195,6 +233,31 @@
     z-index: -1;
     -webkit-animation: spin 60190s linear infinite;
     animation: spin 60190s linear infinite;
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+  from {
+    -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  from {
+    -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
   }
 }
 
