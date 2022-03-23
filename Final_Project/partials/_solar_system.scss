@@ -1,196 +1,172 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .milkyWay {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  position: relative;
+}
+
 .sun {
-    position: relative;
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    background-color: #ffd100;
-  }
-  
-  .sun:before, .sun:after {
-    content:"";
-    position: absolute;
-    background-color: rgba(255,209,0,0.1);
-    border-radius:50%;
-  }
-  
-  .sun:before {
-    width:210px;
-    height: 210px;
-    top:-10px;
-    left:-10px;
-  }
-  
-  .sun:after {
-    width: 270px;
-    height: 270px;
-    top:-20px;
-    left:-20px;
-  }
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffd100;
+}
+
+.sun:before,
+.sun:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 209, 0, 0.1);
+  border-radius: 50%;
+}
+
+.sun:before {
+  width: 210px;
+  height: 210px;
+  top: -30px;
+  left: -30px;
+}
+
+.sun:after {
+  width: 270px;
+  height: 270px;
+  top: -60px;
+  left: -60px;
+}
+
 .mercury {
-    position: absolute;
-    width: 15px;
-    height:15px;
-    border-radius:50%;
-    background-color: #c9a227;
-    top:20px;
-    left:2px;
-  }
-  
-  .venus {
-    position: absolute;
-    width: 18px;
-    height:18px;
-    border-radius:50%;
-    background-color: #ff9b85;
-    top:90px;
-    left:-8px;
-  }
-  
-  
-  .earth {
-    position: absolute;
-    width: 22px;
-    height:22px;
-    border-radius:50%;
-    background-color: #0496ff;
-    left:100px;
-    top:-10px;
-    overflow:hidden;
-  }
-  
-  .earth:before {
-    content:"";
-    position: absolute;
-    width:10px;
-    height:5px;
-    border-radius:10px;
-    background-color: #38b000;
-    box-shadow: 5px 5px #38b000, 10px 5px #38b000, -2px 10px #38b000, 15px 10px #38b000,5px 15px #38b000;
-  }
-
-  
-  .mars {
-    position: absolute;
-    width: 16px;
-    height:16px;
-    border-radius:50%;
-    background-color: #db3a34;
-    top:200px;
-    left:12px;
-  }
-  
-
-  
-  .jupiter {
-    position: absolute;
-    border-radius:50%;
-    background-color: #ff9100;
-    width:28px;
-    height:28px;
-    overflow: hidden;
-  }
-  
-  .jupiter:before {
-    content:"";
-    position: absolute;
-    border-radius:20px;
-    width:12px;
-    height:5px;
-    background-color: rgba(255,255,255,0.3);
-    box-shadow: 15px 10px rgba(255,255,255,0.3), 5px 15px rgba(255,255,255,0.3),5px 25px rgba(255,255,255,0.3);
-  }
-
-  
-  .saturn {
-    position: absolute;
-    width:25px;
-    height: 25px;
-    border-radius:50%;
-    background-color: #4281a4;
-    transform-style: preserve-3d;
-  }
-  
-  .saturn:before {
-    content:"";
-    position: absolute;
-    border: solid 7px #9cafb7;
-    border-radius: 50%;
-    width: 35px;
-    height: 28px;
-    transform: rotate3d(1, 0, 0, 75deg); 
-    left:-12px;
-    top:-8px;
-  }
-  
-  .uranus {
-    position: absolute; 
-    width:22px;
-    height: 22px;
-    border-radius:50%;
-    background-color: #004e89;
-    overflow: hidden;
-  }
-  
-  .uranus:before {
-    content:"";
-    position: absolute;
-    background-color: #1a659e;
-    width:15px;
-    height:3px;
-    border-radius:10px;
-    box-shadow: 5px 5px #1a659e, -5px 15px #1a659e;
-  }
-
-.planet {
-    opacity: 45%;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #c9a227;
+  top: -40px;
+  left: -42px;
 }
 
-@-moz-keyframes spin {
-    100% {
-        -moz-transform: rotate(360deg);
-    }
-
-    from {
-        -moz-transform: rotate(0deg) translateX(250px) rotate(0deg);
-    }
-
-    to {
-        -moz-transform: rotate(360deg) translateX(250px) rotate(-360deg);
-    }
+.venus {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ff9b85;
+  top: -70px;
+  left: -74px;
 }
 
-@-webkit-keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
 
-    from {
-        -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
-    }
-
-    to {
-        -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
-    }
+.earth {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #0496ff;
+  left: -100px;
+  top: -110px;
+  overflow: hidden;
 }
 
-@keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
+.earth:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #38b000;
+  box-shadow: 5px 5px #38b000, 10px 5px #38b000, -2px 10px #38b000, 15px 10px #38b000, 5px 15px #38b000;
+}
 
-    from {
-        -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
-    }
+.mars {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #db3a34;
+  left: -135px;
+  top: -135px;
+}
 
-    to {
-        -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
-    }
+
+.jupiter {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ff9100;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  left: -100px;
+  top: -190px;
+}
+
+.jupiter:before {
+  content: "";
+  position: absolute;
+  border-radius: 20px;
+  width: 12px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 15px 10px rgba(255, 255, 255, 0.3), 5px 15px rgba(255, 255, 255, 0.3), 5px 25px rgba(255, 255, 255, 0.3);
+}
+
+
+.saturn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #4281a4;
+  transform-style: preserve-3d;
+  left: -80px;
+  top: -240px;
+}
+
+.saturn:before {
+  content: "";
+  position: absolute;
+  border: solid 7px #9cafb7;
+  border-radius: 50%;
+  width: 35px;
+  height: 28px;
+  transform: rotate3d(1, 0, 0, 75deg);
+  left: -12px;
+  top: -8px;
+}
+
+.uranus {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #004e89;
+  overflow: hidden;
+  left: -40px;
+  top: -280px;
+}
+
+.uranus:before {
+  content: "";
+  position: absolute;
+  background-color: #1a659e;
+  width: 15px;
+  height: 3px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #1a659e, -5px 15px #1a659e;
+}
+
+.neptune {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-image: linear-gradient(#1a659e, #99FFFF, #8cbed6, #1a659e);
+  overflow: hidden;
+  left: -60px;
+  top: -320px;
 }
