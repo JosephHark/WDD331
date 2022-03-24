@@ -1,0 +1,44 @@
+@import 'partials/large';
+
+//Setting up keyframe for side-to-side rotation
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+      }
+      25% {
+        -webkit-transform: rotate(5deg);
+      }
+      50% {
+        -webkit-transform: rotate(0deg);
+      }
+      75% {
+        -webkit-transform: rotate(-5deg);
+      }
+      100% {
+        -webkit-transform: rotate(0deg);
+      }
+}
+
+//Making sidebar divs rotate
+.design-selection {
+    animation: rotation 6s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+.design-archives {
+    animation: rotation 7s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+.zen-resources {
+    animation: rotation 5s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+.wrapper > div {
+    padding: .3em;
+}
