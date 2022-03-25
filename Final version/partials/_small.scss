@@ -1,0 +1,21 @@
+@import './solar_system';
+.page-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.sidebar{
+    grid-column: 2/3;
+    grid-row: 4;
+}
+.intro{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.main{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+.preamble{
+    grid-column: 2/3;
+    grid-row: 2;
+}

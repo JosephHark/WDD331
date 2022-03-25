@@ -1,0 +1,104 @@
+@import 'partials/small';
+@import 'partials/large';
+@import 'partials/typography';
+
+//Setting up keyframe for side-to-side rotation
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+      }
+      25% {
+        -webkit-transform: rotate(5deg);
+      }
+      50% {
+        -webkit-transform: rotate(0deg);
+      }
+      75% {
+        -webkit-transform: rotate(-5deg);
+      }
+      100% {
+        -webkit-transform: rotate(0deg);
+      }
+}
+
+body {
+  padding: 3em;
+}
+
+
+//Making sidebar divs rotate
+.design-selection {
+    animation: rotation 6s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+.design-archives {
+    animation: rotation 7s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+.zen-resources {
+    animation: rotation 5s infinite linear;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+.wrapper > div {
+    padding: .3em;
+}
+.design-selection nav ul li{
+  list-style-type: none;
+}
+.design-selection nav ul li a{
+  color:blanchedalmond;
+}
+.design-selection nav ul li a:first-child{
+  font-size:x-large;
+}
+.design-selection nav ul li a:nth-child(2){
+color:white;
+}
+.design-selection nav ul li a:hover{
+  color:rgb(161, 206, 63);
+}
+.design-selection nav ul li a:nth-child(2):hover{
+  color:#F4C430;
+}
+.design-selection nav ul li {
+  color:blanchedalmond;
+}
+.design-archives nav ul li a{
+  color:blanchedalmond;
+  font-size: x-large;
+}
+.design-archives nav ul li a:hover{
+  color:rgb(161, 206, 63);
+}
+.zen-resources ul li a{
+  color:blanchedalmond;
+  font-size: x-large;
+}
+.zen-resources ul li a:hover{
+  color:rgb(161, 206, 63);
+}
+.wrapper h3{
+color:#F4C430;
+}
+@keyframes grow-animation {
+  0% { transform: scale(0.1); }
+  50% {transform: scale(1.1); }
+  90% {transform: scale(0.8);}
+  100% {transform: scale(1);}
+}
+.intro h1{
+  width: 400px;
+  color:rgb(161, 206, 63);
+  animation: grow-animation 3s linear forwards;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
